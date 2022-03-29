@@ -75,3 +75,21 @@ ul {
     background-color: #BA4B63;
     text-align: center;
 }
+
+/* about */
+.section-about {
+    /* test */
+    height: 500px;
+    border: 2px solid black;
+
+    background-color: #1ABC9C;
+}
+
+.container-fluid {
+    /* test */
+    height: 500px;
+
+    width: 60%;
+    border: 2px solid blueviolet;
+    text-align: center;
+}
