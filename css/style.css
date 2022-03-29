@@ -1,3 +1,16 @@
+/* COMMON */
+.container-fluid {
+    /* test */
+    height: 500px;
+
+    width: 70%;
+    border: 2px solid blueviolet;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
 
 /* HEADER */
 header {
@@ -68,6 +81,9 @@ ul {
     text-align: center;
 }
 
+.avatar img{
+    width: 100%;
+}
 /* portfolio */
 .section-portfolio {
     /* test */
@@ -85,15 +101,6 @@ ul {
     border: 2px solid black;
 
     background-color: #1ABC9C;
-}
-
-.container-fluid {
-    /* test */
-    height: 500px;
-
-    width: 70%;
-    border: 2px solid blueviolet;
-    text-align: center;
 }
 
 /* contact */
