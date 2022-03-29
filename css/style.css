@@ -40,10 +40,12 @@ ul {
 }
 
 .burger i {
+    font-size: 1.3rem;
     border: 1px solid white;
     padding: .5rem .7rem;
     border-radius: .3rem;
 }
+
 @media screen and (max-width:768px) {
     .menu {
         display: none;
