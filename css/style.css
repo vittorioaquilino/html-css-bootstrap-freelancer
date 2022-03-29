@@ -110,3 +110,11 @@ ul {
     background-color: #3A546D;
     text-align: center;
 }
+
+/* FOOTER */
+footer {
+    height: 80px;
+    background-color: #2C3E50;
+    text-align: center;
+    line-height: 80px;
+}
