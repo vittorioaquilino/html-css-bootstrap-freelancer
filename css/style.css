@@ -1,6 +1,7 @@
 /* COMMON */
-.container-fluid {
+.ms_wrapper {
     width: 70%;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -168,8 +169,22 @@ ul {
 
 .ms_form-floating label {
     padding: 1rem 0;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
+
+.ms_btn-send {
+    color: white;
+    background-color: #1ABC9C;
+    border-color: #1ABC9C;
+    margin-top: 1rem;
+}
+
+.ms_btn-send:hover {
+    color: #1ABC9C;
+    background-color: white;
+    border-color: #1ABC9C;
+}
+
 /* social */
 .ms_section-social {
     /* test */
