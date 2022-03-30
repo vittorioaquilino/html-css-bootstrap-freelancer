@@ -9,6 +9,10 @@ img {
     width: 100%;
 }
 
+.ms_mb-1 {
+    margin-bottom: 1.5rem;
+}
+
 /* HEADER */
 header {
     height: 80px;
@@ -103,21 +107,21 @@ ul {
     margin: 0 .5rem;
     font-size: 1.5rem;
 }
+
 /* portfolio */
 .ms_section-portfolio {
-    /* test */
-    /* height: 250px; */
-    border: 2px solid black;
-
-    background-color: #BA4B63;
     padding: 2rem;
     text-align: center;
-    color: white;
+    color: #2C3E50;
+    text-transform: uppercase;
 }
 
-.ms_portfolio-item {
-    background-color: coral;
-    height: 100px;
+.ms_section-portfolio .ms_border {
+    border: 2px solid #2C3E50;
+}
+
+.ms_portfolio-item img {
+    border-radius: 15px;
 }
 
 /* about */
