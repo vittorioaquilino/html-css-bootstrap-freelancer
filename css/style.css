@@ -20,9 +20,6 @@ header {
     background-color: #2C3E50;
     text-transform: uppercase;
     font-weight: bold;
-
-    /* test */
-    border: 2px solid black;
 }
 
 ul {
@@ -187,14 +184,47 @@ ul {
 
 /* social */
 .ms_section-social {
-    /* test */
-    /* height: 300px; */
-    border: 2px solid black;
-
     background-color: #3A546D;
     padding: 2rem;
     text-align: center;
     color: white;
+}
+
+.ms_section-social-title{
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.ms_section-social-title:hover {
+    color: #1ABC9C;
+}
+
+.ms_social-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    line-height: 30px;
+    margin: 0 .2rem;
+}
+
+.ms_social-icon:hover {
+    border: 1px solid #1ABC9C;
+    color: #1ABC9C;
+}
+
+.ms_section-social i {
+    vertical-align: middle;
+}
+
+.ms_section-social a {
+    color: #1ABC9C;
+    text-decoration: none;
+}
+
+.ms_section-social a:hover {
+    text-decoration: underline;
 }
 
 /* FOOTER */
