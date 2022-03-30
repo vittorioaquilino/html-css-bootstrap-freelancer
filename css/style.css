@@ -26,31 +26,31 @@ ul {
     list-style: none;
 }
 
-.title-wrapper {
+.ms_title-wrapper {
     color: white;
 }
 
-.menu-wrapper {
+.ms_menu-wrapper {
     text-align: right;
     color: white;
 }
 
-.menu li {
+.ms_menu li {
     display: inline-block;
     margin: 0 .5rem;
 }
 
-.menu a {
+.ms_menu a {
     color: inherit;
     text-decoration: none;
 }
 
-.burger {
+.ms_burger {
     display: none;
     color: gray;
 }
 
-.burger i {
+.ms_burger i {
     font-size: 1.3rem;
     border: 1px solid white;
     padding: .5rem .7rem;
@@ -58,11 +58,11 @@ ul {
 }
 
 @media screen and (max-width:768px) {
-    .menu {
+    .ms_menu {
         display: none;
     }
 
-    .burger {
+    .ms_burger {
         display: block;
     }
 }
@@ -70,55 +70,70 @@ ul {
 /* MAIN */
 
 /* start */
-.section-start {
+.ms_section-banner {
     /* test */
-    height: 150px;
+    /* height: 150px; */
     border: 2px solid black;
 
     background-color: #1ABC9C;
+    padding: 2rem;
     text-align: center;
 }
 
 /* portfolio */
-.section-portfolio {
+.ms_section-portfolio {
     /* test */
-    height: 250px;
+    /* height: 250px; */
     border: 2px solid black;
 
     background-color: #BA4B63;
+    padding: 2rem;
     text-align: center;
+    color: white;
+}
+
+.ms_portfolio-item {
+    background-color: coral;
+    height: 100px;
 }
 
 /* about */
-.section-about {
+.ms_section-about {
     /* test */
-    height: 400px;
+    /* height: 400px; */
     border: 2px solid black;
 
     background-color: #1ABC9C;
+    padding: 2rem;
+    color: white;
 }
 
 /* contact */
-.section-contact {
+.ms_section-contact {
     /* test */
-    height: 200px;
+    /* height: 200px; */
     border: 2px solid black;
+
+    padding: 2rem;
 }
 
 /* social */
-.section-social {
+.ms_section-social {
     /* test */
-    height: 300px;
+    /* height: 300px; */
     border: 2px solid black;
 
     background-color: #3A546D;
+    padding: 2rem;
     text-align: center;
+    color: white;
 }
 
 /* FOOTER */
 footer {
     height: 80px;
     background-color: #2C3E50;
+    color: white;
     text-align: center;
     line-height: 80px;
 }
