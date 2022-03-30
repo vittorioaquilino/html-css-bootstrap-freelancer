@@ -234,4 +234,9 @@ footer {
     color: white;
     text-align: center;
     line-height: 80px;
+    font-size: .8rem;
+}
+
+footer i {
+    font-size: .6rem;
 }
