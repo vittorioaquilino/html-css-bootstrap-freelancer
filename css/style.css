@@ -1,6 +1,5 @@
 /* COMMON */
 .container-fluid {
-
     width: 70%;
     border: 2px solid blueviolet;
     text-align: center;
@@ -71,15 +70,39 @@ ul {
 
 /* start */
 .ms_section-banner {
-    /* test */
-    /* height: 150px; */
-    border: 2px solid black;
-
     background-color: #1ABC9C;
     padding: 2rem;
     text-align: center;
+    text-transform: uppercase;
+    color: white;
 }
 
+.ms_banner-img {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.ms_section-banner h1 {
+    font-weight: bold;
+}
+
+.ms_icon-star {
+    display: flex;
+    justify-content: center;
+}
+
+.ms_border {
+    width: 60px;
+    height: 1px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.ms_icon-star i {
+    line-height: 1px;
+    margin: 0 .5rem;
+    font-size: 1.5rem;
+}
 /* portfolio */
 .ms_section-portfolio {
     /* test */
